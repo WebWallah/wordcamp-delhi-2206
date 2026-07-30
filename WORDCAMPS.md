@@ -123,7 +123,84 @@ Sources: [Culture of Delhi – Tradition, Lifestyle, Language](https://www.trave
 
 Sources: [Global Voices – India: WordCamp (2009)](https://globalvoices.org/2009/02/20/india-wordcamp/), [About – WordCamp Delhi 2017](https://delhi.wordcamp.org/2017/about/), [Welcome to New Delhi – WordCamp Delhi 2017](https://delhi.wordcamp.org/2017/welcome-to-new-delhi/), [WordCamp Delhi 2024](https://delhi.wordcamp.org/2024/), [WordCamp Delhi 2024: Contributor Day schedule and details](https://make.wordpress.org/community/2024/11/25/wordcamp-delhi-2024-contributor-day-schedule-and-details/), [Wrapping up WordCamp Delhi 2024: By the numbers](https://delhi.wordcamp.org/2024/wrapping-up-wordcamp-delhi-2024-by-the-numbers-photo-album-videos/), [WordCamp Delhi 2024 – Bluehost Blog](https://www.bluehost.com/in/blog/events/wordcamp-delhi/), [Past WordCamps – WordCamp Central](https://central.wordcamp.org/schedule/past-wordcamps/)
 
-## 12. Key Takeaways Relevant to Building a "WordCamp Delhi" Project/Site
+## 12. WordCamp Website Anatomy — Full Page Template (from WordCamp Asia 2025 & 2026)
+
+WordCamp Asia is the flagship event, so its sites (`asia.wordcamp.org/2025/`, `asia.wordcamp.org/2026/`) represent the most complete, "maximal" version of a WordCamp site — effectively a superset checklist of every page a WordCamp *can* have. A small local camp wouldn't need all of these, but this is the reference sitemap.
+
+### Navigation structure (grouped by menu section)
+
+**Details / Home**
+- Home — hero with dates/venue, attendee count, keynote highlights, countdown
+
+**News**
+- `/updates/` — blog-style announcements, recaps, "by the numbers" wrap-ups, press coverage
+
+**Event**
+- `/about-us/` — mission, history, why-this-city rationale
+- `/about-the-venue/` (Venue & Location) — hall maps, getting there
+- `/live-streaming/` and `/live-captioning/` — remote-access accommodations
+- `/shuttle-service-guide/` — transit between hotels/venue
+- `/official-hotels/` and `/hotel-choices/` — accommodation options, sometimes with negotiated rates
+- `/visa/` — visa guidance, invitation-letter requests, embassy pointers
+- `/accessibility-at-wordcamp-[city]-[year]/` — physical access, mobility support, wayfinding, staff support (see detail below)
+- `/things-to-do-in-[city]/` (Explore City) and `/food-walk/` — local tourism/culture add-ons
+- `/side-events/` — community meetups/parties happening around the main event
+- `/faq/` — logistics Q&A (see detail below)
+- `/contact/` — organizer contact form/email
+- `/need-to-know/` (seen on 2025 site) — practical need-to-know logistics digest
+- `/lunch-menu/` and `/wapuu/` (2025) — meal info and the event's custom WordPress "Wapuu" mascot artwork
+- `/press-kit/` — logos, boilerplate, media assets for journalists
+
+**Program**
+- `/schedule/` — full multi-track timetable
+- `/contributor-day/` — dedicated contribution-day page, teams, RSVP info, "no experience necessary" framing
+- `/youthcamp-is-back-at-wordcamp-...` (YouthCamp) — a youth/student-focused track or side-program
+- `/solutions-spotlight/` (2025) — sponsor-led product/solution demo sessions distinct from the main talk tracks
+- `/the-after-party/` — post-conference social event page
+
+**Sponsors**
+- `/sponsors/` — sponsor logos grouped by tier (see tier detail below)
+- `/micro-sponsors/` (2025) — a lower-cost sponsorship tier for very small companies/individuals
+- Sponsor Manual (2025) — a linked resource/PDF for sponsors on logistics/deliverables
+
+**People**
+- `/organisers/` (or `/organizers/`) — full team by function (see detail below)
+- `/speakers/` — speaker bios/photos
+- `/emcees/` — hosts who run the stage between talks
+- `/media-partners/` — press/blog partners cross-promoting the event
+- `/volunteers/` — volunteer team acknowledgment/recruitment
+- `/attendees/` — sometimes a stats/photo page celebrating who showed up; sometimes a recruitment page ("who should attend")
+- `/community-spotlight/` (2025) — features on local community members/contributions
+
+**Policies & Support (footer)**
+- `/code-of-conduct/` — see detail below
+- `/contact/`
+- Cookie Policy — usually links out to the shared `wordpress.org/about/privacy/cookies/` page rather than a local one
+
+**Future Events**
+- A footer pointer to the *next* year's WordCamp Asia site (continuity link, e.g. 2026 site links to 2027 in Penang, Malaysia)
+
+### Page content deep-dives
+
+**About Us** — states the flagship's three-part mission: (1) broaden beyond "just WordPress" to a wider web/tech-professional audience, (2) strengthen community-building models across the region, (3) aim for record scale while still prioritizing meaningful engagement over headcount. Explains "why this city" using local community stats (e.g., Mumbai chosen partly because India has 20+ active WordPress groups and organized 15+ major WordPress events in 2025).
+
+**Sponsors** — tiers are named using **WordPress user-role terminology** as a cute naming convention, from highest to lowest: **Super Admin → Admin → Editor → Author → Contributor → Subscriber → Viewer**, plus an **Add-On Sponsors** category for supplementary/in-kind sponsors (e.g., a specific tool/service sponsor). No public pricing is shown on the page itself (pricing lives in a private sponsorship prospectus/manual).
+
+**Organizers** — structured as: 1-2 Global Leads + Local Lead(s), then named leads for each functional team: **Attendee Experience, A/V, Communications, Contributor Day, Design, Finance, Operations, Program, Sponsors, Technology, Venue, Volunteers.** This is essentially the canonical "org chart" template for any WordCamp team, scaled up or down by event size.
+
+**FAQ** — recurring question categories across both years: dates/venue, registration cost & payment methods (UPI/cards common in India), dress code, badge pickup process, livestream availability, Contributor Day RSVP requirements, meal/dietary accommodations (vegetarian/vegan/Jain/halal/kosher — notably India-specific dietary inclusivity), after-party timing, transport/parking, visa guidance, venue accessibility, lost-and-found.
+
+**Code of Conduct** — consistent structure across WordCamps generally: (1) inclusion statement covering gender/orientation/disability/ethnicity/religion/age, (2) explicit list of unacceptable behaviors (harassment, stalking, unwelcome contact, disruptive conduct), (3) reporting process (find an organizer on-site, registration-desk point of contact, email to a shared `report@wordcamp.org` address, discreet handling at social events), (4) scope covering all participant types at all venues/affiliated social events, (5) enforcement — organizers can expel violators without warning or refund.
+
+**Accessibility** — venue-specific but follows a pattern: step-free/wide-path entry, elevators, wheelchairs/mobility aids available on request, accessible restrooms and seating, clear wayfinding signage, help-desk staff support, and an honest caveat about limits (e.g., specialized powered mobility devices may not be available on-site — bring your own if needed).
+
+### Why this matters for a WordCamp Delhi site
+
+This gives a concrete, near-exhaustive **information architecture checklist** to plan a WordCamp Delhi website against — far more complete than the general organizer-handbook guidance in §3–§6. Even a modest local camp can scope its site as "which subset of this full sitemap do we need," rather than inventing page types from scratch: Home, About, Schedule, Speakers, Sponsors (with WP-role-named tiers), Organizers (by function team), Volunteers, Attendees, Code of Conduct, FAQ, Venue/Accessibility, Contact — with Contributor Day, Visa, Hotels, Side Events, and After Party as the "add when the event is large/international enough to need them" tier.
+
+Sources: [WordCamp Asia 2026](https://asia.wordcamp.org/2026/), [WordCamp Asia 2025](https://asia.wordcamp.org/2025/), [About Us – WordCamp Asia 2026](https://asia.wordcamp.org/2026/about-us/), [Sponsors – WordCamp Asia 2026](https://asia.wordcamp.org/2026/sponsors/), [Accessibility – WordCamp Asia 2026](https://asia.wordcamp.org/2026/accessibility-at-wordcamp-asia-2026/), [FAQ – WordCamp Asia 2026](https://asia.wordcamp.org/2026/faq/), [Code of Conduct – WordCamp Asia 2026](https://asia.wordcamp.org/2026/code-of-conduct/), [Organizers – WordCamp Asia 2025](https://asia.wordcamp.org/2025/organizers/)
+
+## 13. Key Takeaways Relevant to Building a "WordCamp Delhi" Project/Site
 
 If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build tooling/content for a WordCamp Delhi event, the research above suggests these are the load-bearing concepts to design around:
 1. **Multi-track schedule data model** (talks, speakers, tracks, rooms, time slots).
@@ -136,6 +213,7 @@ If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build 
 8. **Regional pull** — 2024's edition drew speakers from Nepal, Bangladesh, and Afghanistan; Delhi WordCamp content/marketing can credibly position itself as a South Asian hub, not purely a Delhi-local event.
 9. **Cultural tone** — branding, copy, and swag should lean into Delhi's actual self-image: generous hospitality ("dil se"), food-centric networking breaks, and energetic/direct "josh" rather than a generic corporate-conference tone.
 10. **Existing volunteer pool** — Delhi/NCR's dense pre-existing tech-meetup scene (GDG, PyDelhi, Women Who Code, TiE Delhi-NCR, co-working hubs) is the natural recruiting ground for organizers, speakers, and sponsors.
+11. **Full site-page checklist** (from §12) — scope any WordCamp Delhi website against the WordCamp Asia reference sitemap: Home, About, News/Updates, Schedule, Speakers, Emcees, Sponsors (WP-role-named tiers + micro-sponsor tier for small/local businesses), Organizers (by function team), Volunteers, Attendees, Media Partners, Code of Conduct, FAQ, Contact, Venue & Accessibility, Press Kit — plus Contributor Day, Visa, Hotels, Side Events, and After Party once the event is large enough to warrant them.
 
 ## Sources
 
@@ -167,3 +245,10 @@ If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build 
 - [Delicious Delhi: nostalgia, consumption and the old city](https://www.tandfonline.com/doi/full/10.1080/1070289X.2015.1034130)
 - [The Role of Tech Communities in Delhi, India](https://www.nucamp.co/blog/coding-bootcamp-india-ind-the-role-of-tech-communities-in-delhi-india-how-to-get-involved)
 - [What Makes Delhi Attractive for Tech Talent?](https://www.nucamp.co/blog/coding-bootcamp-india-ind-what-makes-delhi-india-attractive-for-tech-talent)
+- [WordCamp Asia 2026](https://asia.wordcamp.org/2026/)
+- [WordCamp Asia 2025](https://asia.wordcamp.org/2025/)
+- [Sponsors – WordCamp Asia 2026](https://asia.wordcamp.org/2026/sponsors/)
+- [Accessibility – WordCamp Asia 2026](https://asia.wordcamp.org/2026/accessibility-at-wordcamp-asia-2026/)
+- [FAQ – WordCamp Asia 2026](https://asia.wordcamp.org/2026/faq/)
+- [Code of Conduct – WordCamp Asia 2026](https://asia.wordcamp.org/2026/code-of-conduct/)
+- [Organizers – WordCamp Asia 2025](https://asia.wordcamp.org/2025/organizers/)
