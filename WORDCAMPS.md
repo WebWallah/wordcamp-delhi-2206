@@ -94,7 +94,36 @@ Sources: [Global Voices – India: WordCamp (2009)](https://globalvoices.org/200
 | Closing & swag/prize giveaways | Sponsor-donated prizes, thank-yous |
 | (Optional next day) Contributor Day | Hands-on contribution to WordPress core/meta/support/docs/marketing/training teams |
 
-## 10. Key Takeaways Relevant to Building a "WordCamp Delhi" Project/Site
+## 10. Delhi: The City's Culture & Vibe
+
+Delhi isn't a single city so much as layered cities stacked on top of each other — Indraprastha, Tughlaqabad, Shahjahanabad, Lutyens' New Delhi, and the sprawling NCR of Gurugram/Noida — and that layering is the key to its personality.
+
+- **Old Delhi vs. New Delhi duality** — *Purani Dilli* (Old Delhi / "Dilli-6") is the walled Mughal city: narrow lanes, Jama Masjid, Chandni Chowk, centuries-old recipes, chaos as a feature not a bug. *New Delhi* is Lutyens' planned capital and the modern NCR — wide boulevards, government buildings, glass-and-steel offices, startup hubs. A WordCamp Delhi event sits squarely in the "New Delhi" register (convention centres, hotels) while often borrowing Old Delhi's imagery for branding/nostalgia.
+- **"Dil se Dilli" / "Dilli ka Dil"** — the city's own self-mythology is about an outsized, warm-hearted hospitality: strangers get invited in for chai, arguments are loud but forgotten fast, and food is the love language. This "heart of Delhi" framing shows up constantly in local branding and is a natural tagline register for a Delhi-based community event.
+- **Food as identity** — chole bhature, paranthas (Paranthe Wali Gali), chaat/papri chaat, butter chicken and dal makhani (Punjabi-refugee-influenced post-Partition), kebabs, and endless street food consumed standing up mid-conversation. Food breaks at a Delhi event aren't a formality — they're where the actual networking happens.
+- **Language & diversity** — overwhelmingly Hindi/Hinglish as the working language (with English fluent in professional/tech settings), plus Punjabi, Urdu, Bengali and others; religiously mixed (Hindu-majority with sizeable Muslim, Sikh, Jain, Christian communities) with a long track record of that mix coexisting.
+- **Post-Partition energy** — a huge wave of Punjabi refugees after 1947 reshaped Delhi's food, business culture, and its famously loud, direct, deal-making, "josh"-filled (energetic/spirited) social style. That directness and hustle carries straight into Delhi's startup and meetup culture today.
+- **Delhi/NCR as a tech and startup hub** — ranked among India's top startup ecosystems (Delhi NCR is consistently cited as India's #1 or #2 startup region by count/funding), home to GDG Delhi, PyDelhi, Women Who Code Delhi, TiE Delhi-NCR, and dense co-working spaces (91springboard, Innov8). This pre-existing meetup density is exactly the volunteer/speaker/sponsor pool a WordCamp draws from.
+- **Net takeaway for events**: Delhi audiences respond to warmth-plus-hustle — big, generous hospitality (chai, food, "aap ghar aaye" welcome) combined with unapologetic ambition and directness. Branding that leans into "dil" (heart) alongside "hustle"/"community-built" resonates with the city's actual self-image.
+
+Sources: [Culture of Delhi – Tradition, Lifestyle, Language](https://www.travelogyindia.com/delhi/culture-of-delhi.html), [20 Famous Foods of Delhi That Define the City's Soul](https://www.restaurantindia.in/article/20-famous-foods-of-delhi-that-define-the-city-s-soul.14913), ["Dilli ka dil comes calling" – The Tribune](https://www.tribuneindia.com/news/archive/lifestyle/dilli-ka-dil-comes-calling-498700), [Delicious Delhi: nostalgia, consumption and the old city](https://www.tandfonline.com/doi/full/10.1080/1070289X.2015.1034130), [The Role of Tech Communities in Delhi, India](https://www.nucamp.co/blog/coding-bootcamp-india-ind-the-role-of-tech-communities-in-delhi-india-how-to-get-involved), [What Makes Delhi Attractive for Tech Talent?](https://www.nucamp.co/blog/coding-bootcamp-india-ind-what-makes-delhi-india-attractive-for-tech-talent)
+
+## 11. WordCamp Delhi Specifically — Editions & Story
+
+- **2009 — The origin story.** WordCamp India's very first edition ran **21–23 February 2009 in Delhi**, organized by the *Delhi Bloggers Bloc* and *Blog Design Studio* — at the time it was India's biggest blogging-community gathering. WordPress founder **Matt Mullenweg** and tech blogger **Om Malik** both attended. This makes Delhi, literally, the birthplace of the WordPress community event in India.
+- **2017 — WordCamp Delhi.** Held **19 August 2017**, branded with a "Welcome to New Delhi" theme on its own subsite (`delhi.wordcamp.org/2017/`), following the standard local-WordCamp format (talks + speakers announced on the subsite).
+- **2024 — WordCamp Delhi 2024.** The most recent, largest-documented edition: **30 November – 1 December 2024** at the **NDMC Convention Centre**.
+  - **32 speakers** from **4 countries** (India, Nepal, Bangladesh, Afghanistan) — reflecting Delhi's role as a South Asian regional hub, not just a national one.
+  - **25 sponsors** and **35+ organizing team members**.
+  - A **Contributor Day** ran the first day (8 AM–5 PM) alongside the main track, with mentors guiding attendees into WordPress core, docs, support, translation, marketing, and training teams.
+  - Notable sessions included Dr. Govind's *"The untold story of Indian internet"* (on the `.in` ccTLD/domain history) and Amartya Gaur's *"Mastering Gutenberg blocks: From basics to building your own"* — a mix of India-specific web-history storytelling and hands-on modern WordPress (block editor) skill-building.
+  - A public "by the numbers" wrap-up post and photo/video album were published afterward, consistent with Central's expectation of a post-event report.
+- **2025 —** Community activity continued with an event noted for **8 March 2025** in Delhi (International Women's Day-adjacent format, consistent with the broader trend of "Women's Day Meetups" mentioned as a next-gen event format in India).
+- **Trajectory**: Delhi's WordCamp lineage — first-ever (2009) → recurring local camp (2017, 2024, 2025) — plus India's WordPress community's overall growth (hundreds of meetups, WordCamp Asia 2026 in Mumbai, WordCamp India named the **4th flagship WordCamp** for **2027**) positions Delhi as a historically anchor city even as the flagship spotlight currently sits elsewhere.
+
+Sources: [Global Voices – India: WordCamp (2009)](https://globalvoices.org/2009/02/20/india-wordcamp/), [About – WordCamp Delhi 2017](https://delhi.wordcamp.org/2017/about/), [Welcome to New Delhi – WordCamp Delhi 2017](https://delhi.wordcamp.org/2017/welcome-to-new-delhi/), [WordCamp Delhi 2024](https://delhi.wordcamp.org/2024/), [WordCamp Delhi 2024: Contributor Day schedule and details](https://make.wordpress.org/community/2024/11/25/wordcamp-delhi-2024-contributor-day-schedule-and-details/), [Wrapping up WordCamp Delhi 2024: By the numbers](https://delhi.wordcamp.org/2024/wrapping-up-wordcamp-delhi-2024-by-the-numbers-photo-album-videos/), [WordCamp Delhi 2024 – Bluehost Blog](https://www.bluehost.com/in/blog/events/wordcamp-delhi/), [Past WordCamps – WordCamp Central](https://central.wordcamp.org/schedule/past-wordcamps/)
+
+## 12. Key Takeaways Relevant to Building a "WordCamp Delhi" Project/Site
 
 If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build tooling/content for a WordCamp Delhi event, the research above suggests these are the load-bearing concepts to design around:
 1. **Multi-track schedule data model** (talks, speakers, tracks, rooms, time slots).
@@ -104,6 +133,9 @@ If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build 
 5. **Volunteer/organizer team structure** mirroring Central's roles (lead organizer, sponsorship, program, volunteers, web, marketing, A/V).
 6. **Budget transparency** — lean, sponsor-subsidized, reviewed against Central norms.
 7. **Historical continuity** — Delhi holds symbolic significance as the birthplace of WordCamp India (2009), which is a strong narrative/branding angle for any Delhi-focused event site.
+8. **Regional pull** — 2024's edition drew speakers from Nepal, Bangladesh, and Afghanistan; Delhi WordCamp content/marketing can credibly position itself as a South Asian hub, not purely a Delhi-local event.
+9. **Cultural tone** — branding, copy, and swag should lean into Delhi's actual self-image: generous hospitality ("dil se"), food-centric networking breaks, and energetic/direct "josh" rather than a generic corporate-conference tone.
+10. **Existing volunteer pool** — Delhi/NCR's dense pre-existing tech-meetup scene (GDG, PyDelhi, Women Who Code, TiE Delhi-NCR, co-working hubs) is the natural recruiting ground for organizers, speakers, and sponsors.
 
 ## Sources
 
@@ -123,3 +155,15 @@ If this repository (`wordcamp-delhi-2206`) is intended to model, plan, or build 
 - [About Us – WordCamp Asia 2026](https://asia.wordcamp.org/2026/about-us/)
 - [WordCamp India 2027: What's Next? – Make WordPress](https://make.wordpress.org/community/2026/04/30/wordcamp-india-2027-whats-next/)
 - [WC Asia Winds Up, Declares WordCamp India As Fourth Flagship Event](https://wp-content.co/wc-asia-winds-up-wordcamp-india-fourth-flagship-event/)
+- [Welcome to New Delhi – WordCamp Delhi 2017](https://delhi.wordcamp.org/2017/welcome-to-new-delhi/)
+- [WordCamp Delhi 2024](https://delhi.wordcamp.org/2024/)
+- [WordCamp Delhi 2024: Contributor Day schedule and details](https://make.wordpress.org/community/2024/11/25/wordcamp-delhi-2024-contributor-day-schedule-and-details/)
+- [Wrapping up WordCamp Delhi 2024: By the numbers, Photo Album & Videos](https://delhi.wordcamp.org/2024/wrapping-up-wordcamp-delhi-2024-by-the-numbers-photo-album-videos/)
+- [WordCamp Delhi 2024 – Bluehost Blog](https://www.bluehost.com/in/blog/events/wordcamp-delhi/)
+- [Past WordCamps and WordPress Events – WordCamp Central](https://central.wordcamp.org/schedule/past-wordcamps/)
+- [Culture of Delhi – Tradition, Lifestyle, Language](https://www.travelogyindia.com/delhi/culture-of-delhi.html)
+- [20 Famous Foods of Delhi That Define the City's Soul](https://www.restaurantindia.in/article/20-famous-foods-of-delhi-that-define-the-city-s-soul.14913)
+- ["Dilli ka dil comes calling" – The Tribune](https://www.tribuneindia.com/news/archive/lifestyle/dilli-ka-dil-comes-calling-498700)
+- [Delicious Delhi: nostalgia, consumption and the old city](https://www.tandfonline.com/doi/full/10.1080/1070289X.2015.1034130)
+- [The Role of Tech Communities in Delhi, India](https://www.nucamp.co/blog/coding-bootcamp-india-ind-the-role-of-tech-communities-in-delhi-india-how-to-get-involved)
+- [What Makes Delhi Attractive for Tech Talent?](https://www.nucamp.co/blog/coding-bootcamp-india-ind-what-makes-delhi-india-attractive-for-tech-talent)
