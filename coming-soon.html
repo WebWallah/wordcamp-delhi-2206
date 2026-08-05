@@ -74,12 +74,21 @@
     <svg class="hero-jali right"><use href="#jali-motif" /></svg>
 
     <div class="container hero-inner">
+      <!-- Visually hidden — the hero photo below already carries the WordCamp Delhi
+           wordmark, but the page still needs one real heading for a11y/SEO. -->
+      <h1 class="sr-only">WordCamp Delhi 2026 — Coming Soon</h1>
+
       <span class="eyebrow" data-reveal>coming_soon</span>
 
-      <h1 data-reveal data-reveal-delay="1">
-        <span class="text-gradient">WordCamp Delhi</span>
-        <span class="line2">2026</span>
-      </h1>
+      <figure class="hero-photo-wrap" data-reveal data-reveal-delay="1">
+        <img
+          class="hero-photo"
+          src="assets/images/wc-delhi-hero-image.webp"
+          alt="Golden-hour skyline of New Delhi blending the Red Fort, Qutub Minar, India Gate, Lotus Temple, and Rashtrapati Bhavan, with the WordCamp Delhi wordmark overlaid."
+          width="1495"
+          height="1057"
+        />
+      </figure>
 
       <p class="hero-sub" data-reveal data-reveal-delay="2">
         The city where WordCamp India began in 2009 is gearing up for its next chapter.
@@ -97,44 +106,6 @@
         <span class="eyebrow">new delhi · venue tba</span>
         <span class="eyebrow">contributor day: dec 11</span>
       </div>
-
-      <!-- Stylised Delhi skyline: Qutub Minar, India Gate, a central dome, Lotus Temple -->
-      <svg class="skyline" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <defs>
-          <linearGradient id="skylineFade" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#8f2a2f" stop-opacity="0.9" />
-            <stop offset="1" stop-color="#c1440e" stop-opacity="0.85" />
-          </linearGradient>
-        </defs>
-        <line x1="0" y1="210" x2="1200" y2="210" stroke="url(#skylineFade)" stroke-opacity="0.25" stroke-width="1" />
-        <g stroke="url(#skylineFade)" stroke-width="2" fill="none">
-          <path d="M150 210 L160 40 L172 40 L182 210 Z" />
-          <line x1="153" y1="170" x2="179" y2="170" />
-          <line x1="155" y1="130" x2="177" y2="130" />
-          <line x1="157" y1="90" x2="175" y2="90" />
-          <circle cx="166" cy="30" r="6" />
-        </g>
-        <g stroke="url(#skylineFade)" stroke-width="2" fill="none">
-          <path d="M330 210 V90 Q330 55 365 55 H395 Q430 55 430 90 V210" />
-          <path d="M355 210 V95 Q355 78 380 78 Q405 78 405 95 V210" />
-          <line x1="330" y1="70" x2="430" y2="70" />
-        </g>
-        <g stroke="url(#skylineFade)" stroke-width="2" fill="none">
-          <path d="M540 210 V120 H700 V210" />
-          <path d="M540 120 Q620 20 700 120" />
-          <line x1="600" y1="45" x2="600" y2="20" />
-          <circle cx="600" cy="16" r="4" />
-          <line x1="540" y1="150" x2="700" y2="150" />
-        </g>
-        <g stroke="url(#skylineFade)" stroke-width="2" fill="none" transform="translate(950,150)">
-          <path d="M0 60 C -14 20 -14 -10 0 -46 C 14 -10 14 20 0 60 Z" />
-          <path d="M-34 60 C -44 26 -40 0 -20 -30 C -20 4 -22 34 -8 58 Z" />
-          <path d="M34 60 C 44 26 40 0 20 -30 C 20 4 22 34 8 58 Z" />
-          <path d="M-58 60 C -64 36 -56 14 -38 -8 C -42 16 -42 40 -30 58 Z" />
-          <path d="M58 60 C 64 36 56 14 38 -8 C 42 16 42 40 30 58 Z" />
-          <line x1="-70" y1="60" x2="70" y2="60" />
-        </g>
-      </svg>
     </div>
   </section>
 
