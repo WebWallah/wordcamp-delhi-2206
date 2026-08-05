@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
+<body class="has-photo-hero">
 
 <!-- ================= Reusable SVG symbols (jali lattice motif) ================= -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -63,32 +63,24 @@
 
 <main>
   <!-- ================================ HERO ================================= -->
-  <section class="hero" id="home">
-    <div class="hero-bg">
-      <span class="blob blob-1"></span>
-      <span class="blob blob-2"></span>
-      <span class="blob blob-3"></span>
+  <section class="hero hero-photo" id="home">
+    <div class="hero-media">
+      <img
+        class="hero-media-img"
+        src="assets/images/wc-delhi-hero-image.webp"
+        alt="Golden-hour skyline of New Delhi blending the Red Fort, Qutub Minar, India Gate, Lotus Temple, and Rashtrapati Bhavan, with the WordCamp Delhi wordmark overlaid."
+        width="1495"
+        height="1052"
+      />
+      <div class="hero-scrim"></div>
     </div>
-    <div class="hero-grid"></div>
-    <svg class="hero-jali left"><use href="#jali-motif" /></svg>
-    <svg class="hero-jali right"><use href="#jali-motif" /></svg>
 
     <div class="container hero-inner">
-      <!-- Visually hidden — the hero photo below already carries the WordCamp Delhi
+      <!-- Visually hidden — the background photo already carries the WordCamp Delhi
            wordmark, but the page still needs one real heading for a11y/SEO. -->
       <h1 class="sr-only">WordCamp Delhi 2026 — Coming Soon</h1>
 
       <span class="eyebrow" data-reveal>coming_soon</span>
-
-      <figure class="hero-photo-wrap" data-reveal data-reveal-delay="1">
-        <img
-          class="hero-photo"
-          src="assets/images/wc-delhi-hero-image.webp"
-          alt="Golden-hour skyline of New Delhi blending the Red Fort, Qutub Minar, India Gate, Lotus Temple, and Rashtrapati Bhavan, with the WordCamp Delhi wordmark overlaid."
-          width="1495"
-          height="1052"
-        />
-      </figure>
 
       <p class="hero-sub" data-reveal data-reveal-delay="2">
         The city where WordCamp India began in 2009 is gearing up for its next chapter.
