@@ -1,0 +1,436 @@
+/* ===========================================================
+   WordCamp Delhi 2026 — Poster-identity standalone page
+   Palette: cream parchment + rust (#a12e0b) primary + navy ink
+   =========================================================== */
+
+:root {
+  --bg: #f6ecd9;
+  --panel: #fbf3e3;
+  --ink: #2a1d12;
+  --ink-soft: #6b5a45;
+  --navy: #16264c;
+  --rust: #a12e0b;
+  --rust-dark: #6e2109;
+  --rust-line: rgba(161, 46, 11, 0.38);
+  --saffron: #d9701f;
+  --green: #2f7d4f;
+  --cream-text: #f7ead2;
+
+  --font-head: 'Montserrat', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+img { max-width: 100%; display: block; }
+
+/* ================================ LAYOUT WRAP ================================ */
+.poster-wrap {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1.5rem, 5vw, 3.5rem) 1.1rem 2.5rem;
+  overflow: hidden;
+}
+
+.poster-atmos {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: var(--rust);
+  opacity: .28;
+  z-index: 0;
+}
+.poster-atmos .bird { position: absolute; width: 26px; height: 13px; }
+.poster-atmos .b1 { top: 6%; left: 10%; }
+.poster-atmos .b2 { top: 4%; left: 18%; width: 18px; height: 9px; }
+.poster-atmos .b3 { top: 9%; right: 14%; }
+.poster-atmos .b4 { top: 3%; right: 22%; width: 18px; height: 9px; }
+.poster-atmos .b5 { top: 14%; right: 8%; width: 20px; height: 10px; }
+.poster-atmos .cloud {
+  position: absolute;
+  width: 120px; height: 40px;
+  background: radial-gradient(ellipse at center, rgba(161,46,11,.5) 0%, rgba(161,46,11,0) 70%);
+  border-radius: 50%;
+}
+.poster-atmos .c1 { top: 2%; left: 2%; }
+.poster-atmos .c2 { top: 6%; right: 4%; width: 90px; }
+
+/* ================================ CARD ================================ */
+.poster-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 700px;
+  border: 1.5px solid var(--rust-line);
+  border-radius: 22px;
+  overflow: hidden;
+  background: var(--panel);
+  box-shadow: 0 30px 70px -34px rgba(74, 24, 6, 0.35);
+}
+
+.poster-corner {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  color: var(--rust);
+  opacity: .85;
+  z-index: 2;
+}
+.poster-corner.tl { top: 10px; left: 10px; }
+.poster-corner.tr { top: 10px; right: 10px; transform: scaleX(-1); }
+.poster-corner.bl { bottom: 10px; left: 10px; transform: scaleY(-1); }
+.poster-corner.br { bottom: 10px; right: 10px; transform: scale(-1, -1); }
+
+.poster-inner {
+  padding: clamp(2.2rem, 6vw, 3.4rem) clamp(1.5rem, 6vw, 3.2rem) clamp(2rem, 5vw, 2.6rem);
+  text-align: center;
+}
+
+/* ================================ LOGO + TAGLINE ================================ */
+.poster-logo {
+  width: min(260px, 70%);
+  margin: 0 auto 1rem;
+}
+
+.poster-tagline {
+  margin: 0 0 1.4rem;
+  font-weight: 800;
+  font-size: clamp(.82rem, 2vw, .98rem);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.poster-tagline .t-orange { color: var(--saffron); }
+.poster-tagline .t-navy { color: var(--navy); }
+.poster-tagline .t-green { color: var(--green); }
+
+/* ================================ DIVIDERS ================================ */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  margin: 0 auto 1.6rem;
+  max-width: 340px;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--rust-line));
+}
+.divider::after { background: linear-gradient(90deg, var(--rust-line), transparent); }
+.divider.small { margin-bottom: 1.1rem; max-width: 220px; }
+.divider-flower {
+  width: 16px; height: 16px;
+  color: var(--rust);
+  flex-shrink: 0;
+}
+
+/* ================================ TITLE ================================ */
+.poster-title { margin: 0 0 1.8rem; line-height: 1; }
+
+.poster-title .t-word {
+  display: block;
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4.4vw, 2.1rem);
+  color: var(--navy);
+  letter-spacing: .02em;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(.6rem, 2.4vw, 1.2rem);
+  margin-top: .35rem;
+}
+
+.mini-flower {
+  width: clamp(16px, 3vw, 24px);
+  height: clamp(16px, 3vw, 24px);
+  color: var(--rust);
+  flex-shrink: 0;
+}
+
+.poster-title .t-place {
+  font-family: var(--font-head);
+  font-weight: 900;
+  font-size: clamp(2.4rem, 10vw, 3.9rem);
+  color: var(--rust);
+  letter-spacing: -.01em;
+}
+.poster-title .year { color: var(--rust); }
+
+/* ================================ INFO BOX ================================ */
+.poster-infobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1.2rem 1.6rem;
+  margin: 0 auto 1.8rem;
+  padding: 1rem 1.5rem;
+  border: 1.5px solid var(--rust-line);
+  border-radius: 14px;
+  background: #fffaf1;
+  max-width: 560px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  text-align: left;
+}
+.info-icon {
+  color: var(--rust);
+  flex-shrink: 0;
+  display: flex;
+}
+.info-text { display: flex; flex-direction: column; line-height: 1.3; }
+.info-text strong {
+  font-size: .92rem;
+  color: var(--navy);
+  font-weight: 800;
+}
+.info-text span {
+  font-size: .74rem;
+  color: var(--ink-soft);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.info-text .abbr { font-weight: 700; }
+
+.info-sep {
+  width: 1px;
+  height: 34px;
+  background: var(--rust-line);
+}
+@media (max-width: 480px) {
+  .info-sep { display: none; }
+  .poster-infobox { flex-direction: column; gap: .9rem; }
+  .info-item { text-align: center; flex-direction: column; gap: .3rem; }
+}
+
+/* ================================ BUTTONS (beveled pill, per reference) ================================ */
+.poster-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  font-family: var(--font-head);
+  font-weight: 800;
+  color: var(--cream-text);
+  text-decoration: none;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(180deg, #c85a2a 0%, #a12e0b 42%, #6e2109 100%);
+  border: 2px solid #3d1204;
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, .3),
+    inset 0 -12px 16px rgba(0, 0, 0, .22),
+    0 3px 0 #3d1204,
+    0 12px 24px -10px rgba(74, 20, 4, .55);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.poster-btn:hover { transform: translateY(-2px); }
+.poster-btn:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, .25),
+    inset 0 -8px 12px rgba(0, 0, 0, .22),
+    0 1px 0 #3d1204,
+    0 6px 14px -8px rgba(74, 20, 4, .5);
+}
+
+.poster-btn-lg {
+  width: 100%;
+  max-width: 420px;
+  padding: 1.05rem 1.8rem;
+  font-size: clamp(1rem, 2.6vw, 1.15rem);
+  margin: 0 auto 1.4rem;
+}
+.poster-btn-lg .btn-icon { display: inline-flex; }
+.poster-btn-lg .arrow { transition: transform .15s ease; }
+.poster-btn-lg:hover .arrow { transform: translateX(3px); }
+
+.poster-btn-sm {
+  padding: .85rem 1.5rem;
+  font-size: .92rem;
+  white-space: nowrap;
+}
+
+.poster-cta-note {
+  max-width: 460px;
+  margin: 0 auto 0;
+  font-size: .92rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.poster-cta-note strong {
+  display: block;
+  color: var(--navy);
+  font-weight: 800;
+  margin-bottom: .3rem;
+}
+
+/* ================================ COMING SOON NOTE ================================ */
+.poster-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 0 auto 2rem;
+  font-weight: 700;
+  font-size: .92rem;
+  color: var(--rust);
+}
+
+/* ================================ NEWSLETTER ================================ */
+.poster-newsletter {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 2rem 1.6rem 1.8rem;
+  border: 1.5px solid var(--rust-line);
+  border-radius: 20px 20px 16px 16px;
+  background: #fffaf1;
+  scroll-margin-top: 2rem;
+}
+
+.envelope-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--rust);
+  color: var(--cream-text);
+  margin-bottom: .9rem;
+}
+
+.poster-newsletter h2 {
+  margin: 0 0 .5rem;
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--rust);
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.poster-newsletter > p {
+  margin: 0 0 1.3rem;
+  font-size: .9rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.poster-form {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.poster-form input {
+  flex: 1 1 200px;
+  min-width: 0;
+  padding: .85rem 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--rust-line);
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: .92rem;
+}
+.poster-form input:focus {
+  outline: none;
+  border-color: var(--rust);
+}
+
+.poster-hashtag {
+  margin: 1.1rem 0 0;
+  font-weight: 800;
+  color: var(--rust);
+  font-size: .92rem;
+  letter-spacing: .02em;
+}
+
+/* ================================ SKYLINE ================================ */
+.poster-skyline {
+  margin-top: 1.5rem;
+  line-height: 0;
+}
+.poster-skyline img { width: 100%; height: auto; }
+
+/* ================================ BOTTOM JALI STRIP ================================ */
+.poster-border-strip {
+  height: 22px;
+  background-color: var(--rust);
+  background-image:
+    linear-gradient(45deg, rgba(255,255,255,.14) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.14) 75%),
+    linear-gradient(45deg, rgba(255,255,255,.14) 25%, transparent 25%, transparent 75%, rgba(255,255,255,.14) 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 11px 11px;
+}
+
+/* ================================ FOOTNOTE ================================ */
+.poster-footnote {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+  margin: 1.8rem auto 0;
+  text-align: center;
+  font-size: .78rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.poster-footnote a {
+  color: var(--rust);
+  font-weight: 700;
+  text-decoration: none;
+}
+.poster-footnote a:hover { text-decoration: underline; }
+
+/* ================================ REVEAL-ON-LOAD ================================ */
+.poster-card {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+.poster-card.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 560px) {
+  .poster-inner { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .poster-corner { width: 40px; height: 40px; }
+}
