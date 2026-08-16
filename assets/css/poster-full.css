@@ -329,36 +329,6 @@ section { padding: clamp(3.5rem, 7vw, 6.5rem) 0; position: relative; }
 .hero-info-text span { font-size: .72rem; color: var(--ink-soft); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
 .hero-info-sep { width: 1px; height: 32px; background: var(--rust-line); flex-shrink: 0; }
 
-/* Terminal easter-egg, restyled to the rust/navy palette */
-.terminal {
-  max-width: 480px;
-  margin: 0 auto 3rem;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--rust-line-soft);
-  box-shadow: 0 30px 60px -30px rgba(74, 20, 4, .35);
-  text-align: left;
-}
-.terminal-bar {
-  display: flex; align-items: center; gap: 8px;
-  padding: .7rem 1rem;
-  background: var(--navy);
-}
-.tl-dot { width: 10px; height: 10px; border-radius: 50%; }
-.tl-dot.red { background: #d9584a; }
-.tl-dot.yellow { background: #e8b84d; }
-.tl-dot.green { background: #6cb87a; }
-.terminal-bar .file { margin-left: .6rem; font-family: var(--font-mono); font-size: .78rem; color: rgba(247, 234, 210, .6); }
-.terminal-body { background: var(--navy-deep); padding: 1.2rem 1.4rem; font-family: var(--font-mono); font-size: .84rem; line-height: 1.75; }
-.terminal-body .tk-comment { color: #7b8bb0; }
-.terminal-body .tk-var { color: #f0b27a; }
-.terminal-body .tk-punct { color: rgba(247, 234, 210, .5); }
-.terminal-body .tk-key { color: #d9701f; }
-.terminal-body .tk-str { color: #8fd19e; }
-.terminal-body .tk-func { color: #e8b84d; }
-.cursor-blink { display: inline-block; width: 7px; height: 1em; background: var(--cream-text); margin-left: 2px; vertical-align: middle; animation: blink 1s step-end infinite; }
-@keyframes blink { 50% { opacity: 0; } }
-
 .hero-skyline { margin-top: 1rem; line-height: 0; }
 .hero-skyline img { width: 100%; height: auto; }
 
@@ -565,10 +535,6 @@ section { padding: clamp(3.5rem, 7vw, 6.5rem) 0; position: relative; }
 .footer-bottom-links { display: flex; align-items: center; gap: 1.2rem; font-size: .82rem; }
 .footer-bottom-links a { text-decoration: none; color: rgba(247, 234, 210, .75); }
 .footer-bottom-links a:hover { color: var(--cream-text); }
-
-.footer-easteregg { border-top: 1px solid rgba(247, 234, 210, .1); padding: 1rem 0 1.6rem; font-family: var(--font-mono); font-size: .78rem; color: rgba(247, 234, 210, .4); }
-.footer-easteregg .tk-func { color: #f0b27a; }
-.footer-easteregg .tk-str { color: #8fd19e; }
 
 .footer-border-strip {
   height: 22px;
