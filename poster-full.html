@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WordCamp Delhi 2026 — Where Dilli Meets WordPress</title>
+<meta name="description" content="WordCamp Delhi 2026 — a community-organized WordPress conference in New Delhi, bringing together developers, designers, and WordPress enthusiasts. Talks, Contributor Day, sponsor expo, and pure Dilli hospitality." />
+<meta name="theme-color" content="#f6ecd9" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e07b21'/%3E%3Cstop offset='.55' stop-color='%23a12e0b'/%3E%3Cstop offset='1' stop-color='%23162a52'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23f6ecd9'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='url(%23g)'%3EW%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/poster-full.css" />
+</head>
+<body>
+
+<!-- ================= Reusable SVG symbols ================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="jali-motif" viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M60 4 L112 60 L60 116 L8 60 Z" />
+        <path d="M60 24 L96 60 L60 96 L24 60 Z" />
+        <circle cx="60" cy="60" r="10" />
+        <path d="M60 4 V24 M60 96 V116 M8 60 H24 M96 60 H112" />
+      </g>
+    </symbol>
+    <symbol id="flower-motif" viewBox="0 0 24 24">
+      <g fill="currentColor">
+        <path d="M12 1.6c1.7 2.1 1.7 4.3 0 6.4-1.7-2.1-1.7-4.3 0-6.4Z" />
+        <path d="M12 16c1.7 2.1 1.7 4.3 0 6.4-1.7-2.1-1.7-4.3 0-6.4Z" />
+        <path d="M1.6 12c2.1-1.7 4.3-1.7 6.4 0-2.1 1.7-4.3 1.7-6.4 0Z" />
+        <path d="M16 12c2.1-1.7 4.3-1.7 6.4 0-2.1 1.7-4.3 1.7-6.4 0Z" />
+        <circle cx="12" cy="12" r="2.3" />
+      </g>
+    </symbol>
+    <symbol id="corner-flourish" viewBox="0 0 90 90">
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <path d="M6 46 V16 Q6 6 16 6 H46" />
+        <path d="M16 46 V24 Q16 16 24 16 H46" />
+      </g>
+      <g fill="currentColor">
+        <circle cx="66" cy="12" r="4.4" />
+        <circle cx="58" cy="16" r="2.4" />
+        <circle cx="74" cy="8" r="2.2" />
+        <circle cx="78" cy="20" r="2.2" />
+        <circle cx="64" cy="24" r="2" />
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- =============================== HEADER =============================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="#home" class="brand">
+      <img class="brand-logo" src="assets/images/wc-logo.webp" alt="WordCamp Delhi 2026" height="40" />
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <div class="nav-item">
+        <a href="#involve">Calls <span class="caret">▾</span></a>
+        <div class="nav-dropdown">
+          <a href="#involve">Call for Speakers</a>
+          <a href="#sponsors">Call for Sponsors</a>
+        </div>
+      </div>
+      <a href="#highlights">Program</a>
+      <a href="#sponsors">Sponsors</a>
+      <div class="nav-item">
+        <a href="#journey">Community <span class="caret">▾</span></a>
+        <div class="nav-dropdown">
+          <a href="#journey">Our Journey</a>
+          <a href="#">Code of Conduct</a>
+          <a href="#newsletter">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#newsletter" class="btn-whatsapp">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 0 1-12.36 7.56L4 20l1.06-4.36A8.5 8.5 0 1 1 21 11.5Z" /><path d="M8.5 10.5c.3 2 2.2 3.9 4.2 4.2" /></svg>
+        Join the Community
+      </a>
+      <a href="#newsletter" class="btn btn-primary btn-sm">Get Notified</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ MOBILE NAV OVERLAY ======================== -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a>
+  <a href="#news">News</a>
+  <a href="#involve" class="sub">↳ Call for Speakers</a>
+  <a href="#sponsors" class="sub">↳ Call for Sponsors</a>
+  <a href="#highlights">Program</a>
+  <a href="#sponsors">Sponsors</a>
+  <a href="#journey">Journey</a>
+  <a href="#" class="sub">↳ Code of Conduct</a>
+  <a href="#newsletter" class="btn btn-primary">Get Notified</a>
+</div>
+
+<main>
+  <!-- ================================ HERO ================================= -->
+  <section class="hero" id="home">
+    <div class="hero-frame">
+      <svg class="hero-corner tl" aria-hidden="true"><use href="#corner-flourish" /></svg>
+      <svg class="hero-corner tr" aria-hidden="true"><use href="#corner-flourish" /></svg>
+
+      <img class="hero-logo" src="assets/images/wc-logo.webp" alt="WordCamp Delhi 2026 logo" data-reveal />
+
+      <p class="hero-tagline" data-reveal data-reveal-delay="1">
+        <span class="t-orange">Learn.</span>
+        <span class="t-navy">Share.</span>
+        <span class="t-green">Grow Together.</span>
+      </p>
+
+      <h1 data-reveal data-reveal-delay="2">
+        <span class="line1">WordCamp Delhi</span>
+        <span class="line2">2026</span>
+      </h1>
+
+      <p class="hero-sub" data-reveal data-reveal-delay="3">
+        <strong>Dil se Dilli, code se community.</strong> Bringing developers, designers, founders,
+        and first-timers together for talks, contribution, chai, and everything WordPress.
+      </p>
+
+      <div class="hero-infobox" data-reveal data-reveal-delay="3">
+        <div class="hero-info-item">
+          <span class="info-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg></span>
+          <div class="hero-info-text"><strong>12th &amp; 13th</strong><span>December 2026</span></div>
+        </div>
+        <div class="hero-info-sep"></div>
+        <div class="hero-info-item">
+          <span class="info-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z" /><circle cx="12" cy="9.5" r="2.3" /></svg></span>
+          <div class="hero-info-text"><strong>Dr. Ambedkar Intl. Centre</strong><span>New Delhi</span></div>
+        </div>
+      </div>
+
+      <div class="hero-actions" data-reveal data-reveal-delay="4">
+        <a href="#newsletter" class="btn btn-primary btn-lg">Get Notified When Tickets Drop</a>
+        <a href="#involve" class="btn btn-ghost btn-lg">Become a Sponsor / Speaker</a>
+      </div>
+
+      <!-- Techy "key details" readout, styled like a code editor window -->
+      <div class="terminal" data-reveal data-reveal-delay="4">
+        <div class="terminal-bar">
+          <span class="tl-dot red"></span><span class="tl-dot yellow"></span><span class="tl-dot green"></span>
+          <span class="file">wordcamp-delhi-2026.php</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="tk-comment">&lt;?php</span></div>
+          <div><span class="tk-var">$wordcamp</span> <span class="tk-punct">=</span> <span class="tk-key">array</span><span class="tk-punct">(</span></div>
+          <div>&nbsp;&nbsp;<span class="tk-str">'city'</span> <span class="tk-punct">=&gt;</span> <span class="tk-str">'Delhi'</span><span class="tk-punct">,</span></div>
+          <div>&nbsp;&nbsp;<span class="tk-str">'year'</span> <span class="tk-punct">=&gt;</span> <span class="tk-func">2026</span><span class="tk-punct">,</span></div>
+          <div>&nbsp;&nbsp;<span class="tk-str">'venue'</span> <span class="tk-punct">=&gt;</span> <span class="tk-str">'New Delhi — TBA'</span><span class="tk-punct">,</span></div>
+          <div>&nbsp;&nbsp;<span class="tk-str">'format'</span> <span class="tk-punct">=&gt;</span> <span class="tk-str">'Talks + Workshops + Contributor Day'</span><span class="tk-punct">,</span></div>
+          <div>&nbsp;&nbsp;<span class="tk-str">'tickets'</span> <span class="tk-punct">=&gt;</span> <span class="tk-func">'coming_soon'</span><span class="cursor-blink"></span><span class="tk-punct">,</span></div>
+          <div><span class="tk-punct">);</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-skyline">
+      <img
+        src="assets/images/skyline.webp"
+        alt="Illustrated terracotta skyline of New Delhi featuring India Gate, Lotus Temple, Qutub Minar, and Red Fort with a metro train crossing in front"
+        width="2172"
+        height="724"
+        loading="lazy"
+      />
+    </div>
+  </section>
+
+  <!-- ============================= MARQUEE STRIP ============================ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Talks &amp; Workshops</span><span>Contributor Day</span><span>Sponsor Expo</span><span>Networking</span>
+      <span>Beginner Track</span><span>After Party</span><span>Swag &amp; Chai</span><span>Gutenberg Deep-Dives</span>
+      <span>Talks &amp; Workshops</span><span>Contributor Day</span><span>Sponsor Expo</span><span>Networking</span>
+      <span>Beginner Track</span><span>After Party</span><span>Swag &amp; Chai</span><span>Gutenberg Deep-Dives</span>
+    </div>
+  </div>
+
+  <!-- ================================ ABOUT ================================= -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-copy" data-reveal>
+        <span class="eyebrow">about_wcdel</span>
+        <h2 style="margin-top:1rem">A conference built by the community, for the community.</h2>
+        <p>WordCamps are informal, community-organized events covering everything WordPress —
+          from your first "Hello World" post to core contribution, security, SEO, and scaling a
+          web business. No corporate stage-buying, no gatekeeping — just people who build the
+          open web, together.</p>
+        <p>WordCamp Delhi has become one of India's most active WordPress communities, bringing together developers, designers, agency folks, and the curious from across the country and beyond.</p>
+        <p class="tagline-hi">यह सिर्फ़ एक कॉन्फ़्रेंस नहीं, दिल्ली का दिल है।</p>
+      </div>
+
+      <div class="about-visual" data-reveal data-reveal-delay="2">
+        <svg class="jali-pattern" viewBox="0 0 480 480" preserveAspectRatio="xMidYMid slice">
+          <use href="#jali-motif" x="0" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="0" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="0" y="240" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="240" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="240" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="240" width="120" height="120" />
+          <use href="#jali-motif" x="0" y="360" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="360" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="360" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="360" width="120" height="120" />
+        </svg>
+      </div>
+
+      <div class="about-info-grid" style="grid-column: 1 / -1;">
+        <div class="info-card" data-reveal>
+          <span class="info-label">what_it_is</span>
+          <p>A community-run, not-for-profit WordPress conference — organized entirely by volunteers, for the open web.</p>
+        </div>
+        <div class="info-card" data-reveal data-reveal-delay="1">
+          <span class="info-label">who_its_for</span>
+          <p>Developers, designers, content creators, founders, agency folks, and the AI-curious — all under one roof.</p>
+        </div>
+        <div class="info-card" data-reveal data-reveal-delay="2">
+          <span class="info-label">why_this_year</span>
+          <p>WordPress powers 40%+ of the web and is quietly becoming core infrastructure for the agentic web. Delhi's thriving developer community is ready for the next chapter.</p>
+        </div>
+        <div class="info-card" data-reveal data-reveal-delay="3">
+          <span class="info-label">whats_in_store</span>
+          <p>Talks, hands-on workshops, honest panels, and a full Contributor Day — plus more chai than any conference has a right to serve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== DELHI VIBES SECTION ========================= -->
+  <section class="on-panel" id="vibes">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">the_vibe</span>
+        <h2><span class="text-gradient">Purani Dilli's</span> soul, woven into every corner.</h2>
+        <p>Jali screens, haveli courtyards, winter fog, and marigold everywhere — this is the walled-city
+          texture WordCamp Delhi is built on, with just enough Nayi Dilli hustle to keep it moving.</p>
+      </div>
+
+      <div class="vibes-grid">
+        <div class="vibe-card" data-reveal>
+          <div class="vibe-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9" /><path d="M8 15s1.5-2 4-2 4 2 4 2M9 9h.01M15 9h.01" /></svg>
+          </div>
+          <h3>Old Delhi Soul</h3>
+          <p>Jali screens, Mughal arches, and centuries-old lanes — the visual DNA running through our brand.</p>
+          <span class="hi">Purani Dilli · Dilli-6</span>
+        </div>
+        <div class="vibe-card" data-reveal data-reveal-delay="1">
+          <div class="vibe-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21V9l8-6 8 6v12" /><path d="M9 21v-7h6v7" /></svg>
+          </div>
+          <h3>Dil Se Hospitality</h3>
+          <p>Chai on tap, food breaks that turn into real conversations, and a welcome that doesn't feel corporate.</p>
+          <span class="hi">"aap ghar aaye, dil khush hua"</span>
+        </div>
+        <div class="vibe-card" data-reveal data-reveal-delay="2">
+          <div class="vibe-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="9" r="4.2" /><path d="M8 21c0-3 1.8-5 4-5s4 2 4 5" /><path d="M4 12c0-1 .5-2 1.5-2M20 12c0-1-.5-2-1.5-2" /></svg>
+          </div>
+          <h3>Winter in the Walled City</h3>
+          <p>Foggy mornings, marigold garlands at the flower market, gajak and roasted moongfali — December in Old Delhi has its own quiet magic. We're borrowing that for our after-hours bonfire.</p>
+          <span class="hi">Sardi mein bhi garmi</span>
+        </div>
+        <div class="vibe-card" data-reveal data-reveal-delay="3">
+          <div class="vibe-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c-2 3-2 6 0 9s2 6 0 9M6 6c1.5 2.5 1.5 5 0 7.5M18 6c-1.5 2.5-1.5 5 0 7.5" /></svg>
+          </div>
+          <h3>A Table for Everyone</h3>
+          <p>Veg, vegan, Jain, halal — Delhi's plurality shows up in who's welcome at the table, always.</p>
+          <span class="hi">Sab ka swagat hai</span>
+        </div>
+        <div class="vibe-card" data-reveal data-reveal-delay="4">
+          <div class="vibe-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" /></svg>
+          </div>
+          <h3>New Delhi Hustle</h3>
+          <p>One of India's top startup ecosystems — GDG, PyDelhi, TiE, and a thriving builder culture, minutes from the walled city.</p>
+          <span class="hi">Delhi-NCR · Josh mode: on</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== PROGRAM/HIGHLIGHTS ======================== -->
+  <section id="highlights">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">what_to_expect</span>
+        <h2 style="margin-top:1rem">Two days. One community. Endless chai refills.</h2>
+        <p>A snapshot of the format past Delhi editions have run — the 2026 schedule builds on it.</p>
+      </div>
+
+      <div class="highlights-grid">
+        <div class="highlight-card" data-reveal>
+          <span class="tag">Day 0</span>
+          <h3>Contributor Day</h3>
+          <p>Hands-on contribution to WordPress core, docs, support, translation, marketing, and training — mentors included, laptop required, experience optional.</p>
+        </div>
+        <div class="highlight-card" data-reveal data-reveal-delay="1">
+          <span class="tag">Multi-track</span>
+          <h3>Talks &amp; Workshops</h3>
+          <p>Beginner, developer, and business tracks running in parallel — from your first site to Gutenberg blocks to scaling an agency.</p>
+        </div>
+        <div class="highlight-card" data-reveal data-reveal-delay="2">
+          <span class="tag">Expo Hall</span>
+          <h3>Sponsor Showcase</h3>
+          <p>Meet the hosts, plugin makers, and agencies behind the products you use daily — swag included, no sponsor speaking slots (that's the rule).</p>
+        </div>
+        <div class="highlight-card" data-reveal>
+          <span class="tag">Hallway Track</span>
+          <h3>Networking Over Food</h3>
+          <p>The best sessions happen between sessions — over chaat, chai, and the kind of conversation a Zoom call can't replicate.</p>
+        </div>
+        <div class="highlight-card" data-reveal data-reveal-delay="1">
+          <span class="tag">All Welcome</span>
+          <h3>First-Timer Friendly</h3>
+          <p>Never been to a WordCamp? Half the room hasn't either. Beginner track and volunteer buddies make sure nobody's lost.</p>
+        </div>
+        <div class="highlight-card" data-reveal data-reveal-delay="2">
+          <span class="tag">After Hours</span>
+          <h3>The After Party</h3>
+          <p>Because the community doesn't clock out at 6 PM. Music, food, and the informal reunion of the day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================= STATS ================================ -->
+  <section class="on-ink" id="numbers">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">by_the_numbers</span>
+        <h2>WordCamp Delhi 2024 by the numbers</h2>
+        <p class="ink-soft">A quick look at the previous Delhi edition — 2026 is set to build on this.</p>
+      </div>
+
+      <div class="stats-panel" data-reveal>
+        <div class="stat"><div class="num" data-count="32">0</div><div class="label">Speakers</div></div>
+        <div class="stat"><div class="num" data-count="4">0</div><div class="label">Countries Represented</div></div>
+        <div class="stat"><div class="num" data-count="25">0</div><div class="label">Sponsors</div></div>
+        <div class="stat"><div class="num" data-count="35">0</div><div class="label">Organizing Volunteers</div></div>
+      </div>
+      <p class="stats-note">Figures from WordCamp Delhi 2024 · NDMC Convention Centre</p>
+
+      <div class="stats-tagline" data-reveal>
+        <h3>Where the oldest city writes the newest code.</h3>
+        <a href="#journey">Learn more about Delhi's WordPress story →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================ TIMELINE =============================== -->
+  <section id="journey">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">the_journey</span>
+        <h2 style="margin-top:1rem">Delhi's WordCamp story, so far</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot">'17</div>
+          <h4>A Growing Community</h4>
+          <p>WordCamp Delhi launches with a full single-day program of talks and speakers, rooted in Delhi's developer ecosystem.</p>
+        </div>
+        <div class="timeline-item" data-reveal data-reveal-delay="1">
+          <div class="timeline-dot">'24</div>
+          <h4>Biggest Edition Yet</h4>
+          <p>32 speakers from 4 countries, 25 sponsors, and a full Contributor Day at NDMC Convention Centre.</p>
+        </div>
+        <div class="timeline-item" data-reveal data-reveal-delay="2">
+          <div class="timeline-dot">'26</div>
+          <h4>The Next Chapter</h4>
+          <p>Building on momentum — bigger stage, deeper community, same dil. Details dropping soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== GET INVOLVED =============================== -->
+  <section class="on-panel" id="involve">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">get_involved</span>
+        <h2 style="margin-top:1rem">Four ways to be part of this.</h2>
+        <p>Every Delhi edition has been built by people who raised their hand first. Your turn.</p>
+      </div>
+
+      <div class="involve-grid">
+        <div class="involve-card" data-reveal>
+          <span class="involve-num">01</span>
+          <h3>Speak</h3>
+          <p>Two tracks, one Contributor Day, and a room full of people who want to learn from you. First-timers genuinely welcome.</p>
+          <span class="involve-status soon">Details Soon</span>
+          <a href="#newsletter" class="involve-link">Submit a Talk →</a>
+        </div>
+        <div class="involve-card" data-reveal data-reveal-delay="1">
+          <span class="involve-num">02</span>
+          <h3>Sponsor</h3>
+          <p>Put your brand in front of one of India's most active WordPress communities, bringing together developers and builders from across the country.</p>
+          <span class="involve-status soon">Prospectus Soon</span>
+          <a href="#sponsors" class="involve-link">Become a Sponsor →</a>
+        </div>
+        <div class="involve-card" data-reveal data-reveal-delay="2">
+          <span class="involve-num">03</span>
+          <h3>Media Partner</h3>
+          <p>Run a blog, podcast, or community? Help us spread the word and get featured across our channels.</p>
+          <span class="involve-status soon">Coming Soon</span>
+          <a href="#newsletter" class="involve-link">Get in Touch →</a>
+        </div>
+        <div class="involve-card" data-reveal data-reveal-delay="3">
+          <span class="involve-num">04</span>
+          <h3>Volunteer</h3>
+          <p>Badges, backstage, and everything in between — help run the show from the inside. No experience needed, just enthusiasm.</p>
+          <span class="involve-status soon">Coming Soon</span>
+          <a href="#newsletter" class="involve-link">Sign Up →</a>
+        </div>
+      </div>
+
+      <div class="join-cta" data-reveal style="margin-top:2.5rem">
+        <svg class="jali-pattern" viewBox="0 0 480 240" preserveAspectRatio="xMidYMid slice">
+          <use href="#jali-motif" x="0" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="0" width="120" height="120" />
+          <use href="#jali-motif" x="0" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="120" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="240" y="120" width="120" height="120" />
+          <use href="#jali-motif" x="360" y="120" width="120" height="120" />
+        </svg>
+        <span class="eyebrow eyebrow-invert">join_the_team</span>
+        <h2 style="margin-top:1rem">This WordCamp is built by people like you.</h2>
+        <p>Speak, sponsor, volunteer, or just show up — every Delhi edition has been made possible
+          by community members raising their hand first.</p>
+        <div class="join-roles">
+          <span>Program Team</span><span>Sponsorship</span><span>Volunteers</span><span>A/V &amp; Streaming</span><span>Design</span><span>Contributor Day</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================ SPONSORS ================================= -->
+  <section id="sponsors">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">sponsors</span>
+        <h2 style="margin-top:1rem">Backed by the community, powered by sponsors.</h2>
+        <p>WordCamp Delhi runs on the generosity of the WordPress ecosystem — local and global. Three tiers, named the way Old Delhi jewelers would name them.</p>
+      </div>
+
+      <div class="sponsor-tiers">
+        <div class="sponsor-tier tier-gold" data-reveal>
+          <span class="tier-name">Swarna</span>
+          <span class="tier-hi">स्वर्ण · gold</span>
+          <p>Top billing on-site and online, prime expo placement, and first pick of speaking-adjacent visibility (never speaking slots — those stay earned).</p>
+        </div>
+        <div class="sponsor-tier" data-reveal data-reveal-delay="1">
+          <span class="tier-name">Rajat</span>
+          <span class="tier-hi">रजत · silver</span>
+          <p>Logo placement across the site and venue, an expo table, and swag-bag inclusion for every attendee.</p>
+        </div>
+        <div class="sponsor-tier" data-reveal data-reveal-delay="2">
+          <span class="tier-name">Tamra</span>
+          <span class="tier-hi">ताम्र · copper</span>
+          <p>A lighter-weight entry for local businesses and small teams who want to back the community without the big-budget ask.</p>
+        </div>
+      </div>
+
+      <div class="sponsor-logos" data-reveal>
+        <div class="sponsor-logo-slot">Your Logo Here</div>
+        <div class="sponsor-logo-slot">Your Logo Here</div>
+        <div class="sponsor-logo-slot">Your Logo Here</div>
+        <div class="sponsor-logo-slot">Your Logo Here</div>
+      </div>
+
+      <div class="sponsor-callout" data-reveal>
+        <div>
+          <h3>Interested in sponsoring WordCamp Delhi 2026?</h3>
+          <p>Three tiers — Swarna, Rajat, and Tamra. Get in front of Delhi's most active WordPress community.</p>
+        </div>
+        <div class="actions">
+          <a href="#newsletter" class="btn btn-primary">Become a Sponsor</a>
+          <a href="#newsletter" class="btn btn-ghost">View Prospectus →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================= VENUE =================================== -->
+  <section class="on-panel" id="venue">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">venue</span>
+        <h2 style="margin-top:1rem">Where we'll gather</h2>
+      </div>
+
+      <div class="venue-wrap">
+        <div class="venue-details" data-reveal>
+          <div class="venue-row">
+            <span class="v-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg></span>
+            <div><div class="v-label">date</div><div class="v-value">12th &amp; 13th December 2026</div></div>
+          </div>
+          <div class="venue-row">
+            <span class="v-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z" /><circle cx="12" cy="9.5" r="2.3" /></svg></span>
+            <div><div class="v-label">address</div><div class="v-value">Dr. Ambedkar International Centre (DAIC), New Delhi<br /><span style="font-weight:400;color:var(--ink-soft);font-size:.9rem">2024's edition was hosted at NDMC Convention Centre</span></div></div>
+          </div>
+          <div class="venue-row">
+            <span class="v-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="14" rx="2" /><path d="M8 21h8M9 17v4M15 17v4" /></svg></span>
+            <div><div class="v-label">getting there</div><div class="v-value">Metro access &amp; parking details coming closer to the date.</div></div>
+          </div>
+        </div>
+
+        <div class="venue-map" data-reveal data-reveal-delay="2">
+          <svg class="jali-pattern" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" style="position:absolute; inset:0;">
+            <use href="#jali-motif" x="0" y="0" width="100" height="100" />
+            <use href="#jali-motif" x="100" y="0" width="100" height="100" />
+            <use href="#jali-motif" x="200" y="0" width="100" height="100" />
+            <use href="#jali-motif" x="300" y="0" width="100" height="100" />
+            <use href="#jali-motif" x="0" y="100" width="100" height="100" />
+            <use href="#jali-motif" x="100" y="100" width="100" height="100" />
+            <use href="#jali-motif" x="200" y="100" width="100" height="100" />
+            <use href="#jali-motif" x="300" y="100" width="100" height="100" />
+            <use href="#jali-motif" x="0" y="200" width="100" height="100" />
+            <use href="#jali-motif" x="100" y="200" width="100" height="100" />
+            <use href="#jali-motif" x="200" y="200" width="100" height="100" />
+            <use href="#jali-motif" x="300" y="200" width="100" height="100" />
+          </svg>
+          <span>Map &amp; directions — coming soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================== NEWS =================================== -->
+  <section id="news">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">news</span>
+        <h2>Stay in the loop</h2>
+        <p>Speaker announcements, schedule drops, and behind-the-scenes stories — all landing here first.</p>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-card" data-reveal>
+          <div class="news-meta"><span class="news-cat">Calls</span> · coming soon</div>
+          <h3>Call for Speakers Opens Soon</h3>
+          <p>Applications for WordCamp Delhi 2026's speaker lineup will open shortly — first-timers strongly encouraged.</p>
+          <a href="#newsletter" class="news-link">Get notified →</a>
+        </div>
+        <div class="news-card" data-reveal data-reveal-delay="1">
+          <div class="news-meta"><span class="news-cat">Calls</span> · coming soon</div>
+          <h3>Call for Sponsors Opens Soon</h3>
+          <p>Our 2026 sponsorship prospectus is being finalized — reach out early if you'd like first look.</p>
+          <a href="#sponsors" class="news-link">See sponsor tiers →</a>
+        </div>
+        <div class="news-card" data-reveal data-reveal-delay="2">
+          <div class="news-meta"><span class="news-cat">Welcome</span> · 2026</div>
+          <h3>Welcome to WordCamp Delhi 2026</h3>
+          <p>A community-driven conference bringing the Delhi tech ecosystem together for talks, learning, and contribution. Here's what to expect.</p>
+          <a href="#about" class="news-link">Read the story →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== NEWSLETTER ================================ -->
+  <section class="on-panel" id="newsletter">
+    <div class="container">
+      <div class="newsletter-box" data-reveal>
+        <span class="eyebrow">stay_connected</span>
+        <h2 style="margin-top:1rem">Be the first to know when we launch tickets.</h2>
+        <p>Dates, speaker line-up, sponsorship prospectus, and volunteer sign-ups — straight to your inbox.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="you@example.com" required aria-label="Email address" />
+          <button type="submit" class="btn btn-primary">Notify Me</button>
+        </form>
+        <p class="form-note">No spam, just Dilli-style updates. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================================ FOOTER =============================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <img class="brand-logo" src="assets/images/wc-logo.webp" alt="WordCamp Delhi 2026" height="38" />
+        </a>
+        <p>A community-organized WordPress conference, produced independently by local volunteers in New Delhi, bringing together builders and developers from across India.</p>
+        <div class="footer-social" aria-label="Social links">
+          <a href="#" aria-label="X / Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.6l-5.2-6.8L5.4 22H2.3l8.1-9.3L1.5 2h6.9l4.7 6.2L18.9 2Zm-1.2 18h1.7L7.4 3.9H5.6L17.7 20Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" /></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="4" /><path d="M10 9.5v5l5-2.5-5-2.5Z" fill="currentColor" stroke="none" /></svg></a>
+          <a href="#" aria-label="WordPress.org profile"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9.5" /><path d="M4 10h2.4l2.6 8M12 4l3 15 2-6M16 4h4" /></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Event</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#journey">Our Journey</a></li>
+          <li><a href="#" class="soon">Code of Conduct</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Get Involved</h5>
+        <ul>
+          <li><a href="#involve">Call for Speakers</a></li>
+          <li><a href="#sponsors">Call for Sponsors</a></li>
+          <li><a href="#involve">Volunteer</a></li>
+          <li><a href="#" class="soon">Tickets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="#" class="soon">Delhi WP Meetup</a></li>
+          <li><a href="https://wordpress.org/" target="_blank" rel="noopener">WordPress.org</a></li>
+          <li><a href="#newsletter">Contact</a></li>
+          <li><a href="https://wordpress.org/about/privacy/cookies/" target="_blank" rel="noopener">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Made <span class="heart">♥</span> in Delhi · WordCamp Delhi is independently organized by community volunteers, part of the global WordCamp program.</p>
+      <div class="footer-bottom-links">
+        <a href="#home">Back to top</a>
+        <span>© 2026 WordCamp Delhi</span>
+      </div>
+    </div>
+
+    <div class="footer-easteregg">
+      <div class="line1"><span class="tk-func">do_action</span>( <span class="tk-str">'dilli_bulayegi'</span> );</div>
+      <div class="line2">// 0 known bugs · 1 walled city · dates TBA</div>
+    </div>
+  </div>
+  <div class="footer-border-strip" aria-hidden="true"></div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
