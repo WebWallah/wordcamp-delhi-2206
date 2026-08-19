@@ -2,10 +2,10 @@
 (function () {
   'use strict';
 
-  var card = document.querySelector('.poster-card');
-  if (card) {
+  var sheet = document.querySelector('.poster-sheet');
+  if (sheet) {
     requestAnimationFrame(function () {
-      requestAnimationFrame(function () { card.classList.add('is-visible'); });
+      requestAnimationFrame(function () { sheet.classList.add('is-visible'); });
     });
   }
 
@@ -17,7 +17,7 @@
       var button = form.querySelector('button');
       if (!input.value) return;
       var original = button.textContent;
-      button.textContent = 'Done ✓';
+      button.textContent = '✓';
       input.value = '';
       setTimeout(function () { button.textContent = original; }, 2400);
     });

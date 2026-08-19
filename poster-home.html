@@ -11,161 +11,83 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
 <link rel="stylesheet" href="assets/css/poster.css" />
 </head>
 <body>
 
-<!-- ============== Reusable SVG symbols (flourishes, flower, bird, jali) ============== -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="corner-flourish" viewBox="0 0 90 90">
-      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-        <path d="M6 46 V16 Q6 6 16 6 H46" />
-        <path d="M16 46 V24 Q16 16 24 16 H46" />
-      </g>
-      <g fill="currentColor">
-        <circle cx="66" cy="12" r="4.4" />
-        <circle cx="58" cy="16" r="2.4" />
-        <circle cx="74" cy="8" r="2.2" />
-        <circle cx="78" cy="20" r="2.2" />
-        <circle cx="64" cy="24" r="2" />
-      </g>
-    </symbol>
-
-    <symbol id="flower-motif" viewBox="0 0 24 24">
-      <g fill="currentColor">
-        <path d="M12 1.6c1.7 2.1 1.7 4.3 0 6.4-1.7-2.1-1.7-4.3 0-6.4Z" />
-        <path d="M12 16c1.7 2.1 1.7 4.3 0 6.4-1.7-2.1-1.7-4.3 0-6.4Z" />
-        <path d="M1.6 12c2.1-1.7 4.3-1.7 6.4 0-2.1 1.7-4.3 1.7-6.4 0Z" />
-        <path d="M16 12c2.1-1.7 4.3-1.7 6.4 0-2.1 1.7-4.3 1.7-6.4 0Z" />
-        <circle cx="12" cy="12" r="2.3" />
-      </g>
-    </symbol>
-
-    <symbol id="bird-motif" viewBox="0 0 24 12">
-      <path d="M0 8 Q6 0 12 8 Q18 0 24 8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-    </symbol>
-
-    <symbol id="jali-motif-p" viewBox="0 0 120 120">
-      <g fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M60 4 L112 60 L60 116 L8 60 Z" />
-        <path d="M60 24 L96 60 L60 96 L24 60 Z" />
-        <circle cx="60" cy="60" r="10" />
-        <path d="M60 4 V24 M60 96 V116 M8 60 H24 M96 60 H112" />
-      </g>
-    </symbol>
-  </defs>
-</svg>
-
 <div class="poster-wrap">
+  <main class="poster-sheet">
 
-  <!-- decorative clouds + birds, purely atmospheric -->
-  <div class="poster-atmos" aria-hidden="true">
-    <svg class="bird b1"><use href="#bird-motif" /></svg>
-    <svg class="bird b2"><use href="#bird-motif" /></svg>
-    <svg class="bird b3"><use href="#bird-motif" /></svg>
-    <svg class="bird b4"><use href="#bird-motif" /></svg>
-    <svg class="bird b5"><use href="#bird-motif" /></svg>
-    <span class="cloud c1"></span>
-    <span class="cloud c2"></span>
-  </div>
+    <div class="poster-grid">
+      <div class="poster-main">
 
-  <main class="poster-card">
-    <svg class="poster-corner tl" aria-hidden="true"><use href="#corner-flourish" /></svg>
-    <svg class="poster-corner tr" aria-hidden="true"><use href="#corner-flourish" /></svg>
-    <svg class="poster-corner bl" aria-hidden="true"><use href="#corner-flourish" /></svg>
-    <svg class="poster-corner br" aria-hidden="true"><use href="#corner-flourish" /></svg>
-
-    <div class="poster-inner">
-
-      <img
-        class="poster-logo"
-        src="assets/images/wc-logo.webp"
-        alt="WordCamp Delhi 2026 logo"
-        width="790"
-        height="253"
-      />
-
-      <p class="poster-tagline">
-        <span class="t-orange">Learn.</span>
-        <span class="t-navy">Share.</span>
-        <span class="t-green">Grow Together.</span>
-      </p>
-
-      <div class="divider" aria-hidden="true">
-        <svg class="divider-flower"><use href="#flower-motif" /></svg>
-      </div>
-
-      <h1 class="sr-only">WordCamp Delhi 2026</h1>
-
-      <div class="poster-title" aria-hidden="true">
-        <span class="t-word">WordCamp</span>
-        <div class="title-row">
-          <svg class="mini-flower"><use href="#flower-motif" /></svg>
-          <span class="t-place">Delhi <span class="year">2026</span></span>
-          <svg class="mini-flower"><use href="#flower-motif" /></svg>
+        <div class="poster-badge-crop">
+          <img src="assets/images/wc-logo.webp" alt="WordCamp Delhi 2026" />
         </div>
-      </div>
 
-      <div class="poster-infobox">
-        <div class="info-item">
-          <span class="info-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg>
-          </span>
-          <div class="info-text">
-            <strong>12th &amp; 13th</strong>
-            <span>December 2026</span>
+        <span class="poster-eyebrow">WordCamp</span>
+
+        <h1 class="poster-title">
+          <span class="t-delhi">Delhi</span>
+          <span class="t-year">2026</span>
+        </h1>
+
+        <div class="poster-diamond-divider" aria-hidden="true">
+          <span class="diamond d-orange"></span>
+          <span class="diamond d-green"></span>
+          <span class="hairline"></span>
+        </div>
+
+        <p class="poster-lede">
+          Dil se Dilli, code se community — two days of WordPress talks, workshops,
+          Contributor Day, and the community that builds the open web.
+        </p>
+
+        <dl class="poster-specs">
+          <div class="spec-row">
+            <dt>Dates</dt>
+            <dd>12th &amp; 13th December 2026</dd>
           </div>
-        </div>
-        <div class="info-sep" aria-hidden="true"></div>
-        <div class="info-item">
-          <span class="info-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z" /><circle cx="12" cy="9.5" r="2.3" /></svg>
-          </span>
-          <div class="info-text">
-            <strong>Dr. Ambedkar International Centre <span class="abbr">(DAIC)</span></strong>
-            <span>New Delhi</span>
+          <div class="spec-row">
+            <dt>Venue</dt>
+            <dd>Dr. Ambedkar International Centre, New Delhi</dd>
           </div>
+          <div class="spec-row">
+            <dt>Programme</dt>
+            <dd>Contributor Day · Talks &amp; Workshops · After Party</dd>
+          </div>
+          <div class="spec-row">
+            <dt>Status</dt>
+            <dd>Full website coming soon</dd>
+          </div>
+        </dl>
+
+        <div class="poster-actions">
+          <a href="#stay-updated" class="poster-btn poster-btn-md">
+            Call for Organisers <span class="arrow">→</span>
+          </a>
+          <p class="poster-actions-note">Be part of the team bringing WordCamp Delhi 2026 to life.</p>
         </div>
+
+        <div class="poster-signup" id="stay-updated">
+          <span class="poster-signup-label">Stay updated</span>
+          <form class="poster-form" onsubmit="return false;">
+            <input type="email" placeholder="Your email address" required aria-label="Email address" />
+            <button type="submit" class="poster-form-submit" aria-label="Subscribe">→</button>
+          </form>
+          <span class="poster-hashtag">#WCDelhi2026</span>
+        </div>
+
       </div>
 
-      <a href="#stay-in-the-loop" class="poster-btn poster-btn-lg">
-        <span class="btn-icon">
-          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="9" cy="8" r="3.2" /><path d="M2.5 20c.6-3.4 3.2-5.6 6.5-5.6s5.9 2.2 6.5 5.6" /><circle cx="18" cy="8.5" r="2.6" /><path d="M15.5 14.6c2.6.4 4.5 2.3 5 5" /></svg>
-        </span>
-        Call for Organisers
-        <span class="arrow">→</span>
-      </a>
-
-      <p class="poster-cta-note">
-        <strong>Be a part of the team bringing WordCamp Delhi 2026 to life.</strong>
-        Help us build an unforgettable experience for our community.
-      </p>
-
-      <div class="divider small" aria-hidden="true">
-        <svg class="divider-flower"><use href="#flower-motif" /></svg>
-      </div>
-
-      <p class="poster-soon">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3.5 2" /></svg>
-        Full website coming soon.
-      </p>
-
-      <div class="poster-newsletter" id="stay-in-the-loop">
-        <span class="envelope-badge">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3.5 6 8.5 7 8.5-7" /></svg>
-        </span>
-        <h2>Stay in the Loop</h2>
-        <p>Get the latest updates on speakers, tickets, sponsors and #WCDelhi2026 news.</p>
-        <form class="poster-form" onsubmit="return false;">
-          <input type="email" placeholder="Your email address" required aria-label="Email address" />
-          <button type="submit" class="poster-btn poster-btn-sm">Subscribe</button>
-        </form>
-        <p class="poster-hashtag">#WCDelhi2026</p>
-      </div>
-
+      <aside class="poster-pattern" aria-hidden="true">
+        <div class="poster-pattern-labels">
+          <span>New Delhi · India</span>
+          <span>#WCDelhi2026</span>
+        </div>
+      </aside>
     </div>
 
     <div class="poster-skyline">
@@ -178,13 +100,16 @@
       />
     </div>
 
-    <div class="poster-border-strip" aria-hidden="true"></div>
+    <div class="poster-footer-bar">
+      <span class="poster-footer-tagline">Connect, contribute, celebrate</span>
+      <span class="poster-footer-tag">#WCDelhi2026</span>
+    </div>
+
   </main>
 
   <p class="poster-footnote">
     © 2026 WordCamp Delhi · Independently organized by community volunteers, part of the global WordCamp program. <a href="index.html">Visit full site →</a>
   </p>
-
 </div>
 
 <script src="assets/js/poster.js"></script>
